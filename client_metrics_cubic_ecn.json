@@ -1,0 +1,7 @@
+{
+    "total_packets_sent": 30000,
+    "total_data_sent (bytes)": 1920000,
+    "total_duration (s)": 77.01,
+    "throughput (bytes/s)": 24930.94,
+    "average_rtt (ms)": 2.56
+}
