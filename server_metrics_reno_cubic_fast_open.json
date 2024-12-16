@@ -1,0 +1,9 @@
+{
+    "time_elapsed (s)": 81.06744170188904,
+    "packets_received": 30000,
+    "cwnd (packets)": 10.0,
+    "lost_segments": "N/A",
+    "retrans_segments": "N/A",
+    "cpu_usage (%)": 7.467500000000001,
+    "memory_usage (%)": 19.23
+}
