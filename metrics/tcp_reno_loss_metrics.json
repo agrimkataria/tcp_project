@@ -1,0 +1,86 @@
+{
+    "Reno with ECN": {
+        "10% Loss": {
+            "comment": "Reno with ECN at 10% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 95.0,
+                "throughput (bytes/s)": 20210.53,
+                "average_rtt (ms)": 3.1
+            }
+        },
+        "20% Loss": {
+            "comment": "Reno with ECN at 20% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 110.0,
+                "throughput (bytes/s)": 17454.55,
+                "average_rtt (ms)": 3.7
+            }
+        },
+        "30% Loss": {
+            "comment": "Reno with ECN at 30% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 125.0,
+                "throughput (bytes/s)": 15360.0,
+                "average_rtt (ms)": 4.3
+            }
+        },
+        "40% Loss": {
+            "comment": "Reno with ECN at 40% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 145.0,
+                "throughput (bytes/s)": 13241.38,
+                "average_rtt (ms)": 5.0
+            }
+        }
+    },
+    "Reno with No Metrics Save": {
+        "10% Loss": {
+            "comment": "Reno with No Metrics Save at 10% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 93.0,
+                "throughput (bytes/s)": 20645.16,
+                "average_rtt (ms)": 3.2
+            }
+        },
+        "20% Loss": {
+            "comment": "Reno with No Metrics Save at 20% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 112.0,
+                "throughput (bytes/s)": 17142.86,
+                "average_rtt (ms)": 3.8
+            }
+        },
+        "30% Loss": {
+            "comment": "Reno with No Metrics Save at 30% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 130.0,
+                "throughput (bytes/s)": 14769.23,
+                "average_rtt (ms)": 4.5
+            }
+        },
+        "40% Loss": {
+            "comment": "Reno with No Metrics Save at 40% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 150.0,
+                "throughput (bytes/s)": 12800.0,
+                "average_rtt (ms)": 5.2
+            }
+        }
+    }
+}

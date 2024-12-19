@@ -1,0 +1,86 @@
+{
+    "Cubic with ECN": {
+        "10% Loss": {
+            "comment": "Cubic with ECN at 10% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 85.0,
+                "throughput (bytes/s)": 22588.24,
+                "average_rtt (ms)": 2.9
+            }
+        },
+        "20% Loss": {
+            "comment": "Cubic with ECN at 20% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 100.0,
+                "throughput (bytes/s)": 19200.0,
+                "average_rtt (ms)": 3.4
+            }
+        },
+        "30% Loss": {
+            "comment": "Cubic with ECN at 30% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 115.0,
+                "throughput (bytes/s)": 16695.65,
+                "average_rtt (ms)": 4.0
+            }
+        },
+        "40% Loss": {
+            "comment": "Cubic with ECN at 40% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 135.0,
+                "throughput (bytes/s)": 14222.22,
+                "average_rtt (ms)": 4.5
+            }
+        }
+    },
+    "Cubic with Fast Open": {
+        "10% Loss": {
+            "comment": "Cubic with Fast Open at 10% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 88.0,
+                "throughput (bytes/s)": 21818.18,
+                "average_rtt (ms)": 3.0
+            }
+        },
+        "20% Loss": {
+            "comment": "Cubic with Fast Open at 20% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 102.0,
+                "throughput (bytes/s)": 18823.53,
+                "average_rtt (ms)": 3.6
+            }
+        },
+        "30% Loss": {
+            "comment": "Cubic with Fast Open at 30% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 118.0,
+                "throughput (bytes/s)": 16271.19,
+                "average_rtt (ms)": 4.2
+            }
+        },
+        "40% Loss": {
+            "comment": "Cubic with Fast Open at 40% packet loss",
+            "data": {
+                "total_packets_sent": 30000,
+                "total_data_sent (bytes)": 1920000,
+                "total_duration (s)": 140.0,
+                "throughput (bytes/s)": 13714.29,
+                "average_rtt (ms)": 4.8
+            }
+        }
+    }
+}
